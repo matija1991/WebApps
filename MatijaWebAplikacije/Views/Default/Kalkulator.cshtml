@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Kalkulator</title>
+</head>
+<h2 style="color:red" ;>Site by M4T1J41991</h2>
+<body background="/Content/Images/webpozadina.jpg">
+    <center><h1 style="color:lightskyblue" ;>KALKULATOR</h1></center>
+    <div>
+        <form method="post">
+            <div>
+                </br>
+                </br>
+                </br>
+                <center><input type="text" name="broj1" style="font-size: 30px" /></center>
+                </br>
+                <center><input type="text" name="broj2" style="font-size: 30px" /></center>
+                </br>
+                </br>
+            </div>
+            <div>
+                <center><button type="submit" value="+" name="operacija" style="padding: 15px 20px; font-size: 30px; border-radius: 20%">+</button> <button type="submit" value="-" name="operacija" style="padding: 15px 24px; font-size: 30px; border-radius: 20%">-</button></center>
+                </br>
+                <center><button type="submit" value="*" name="operacija" style="padding: 15px 23px; font-size: 30px; border-radius: 20%">*</button> <button type="submit" value="/" name="operacija" style="padding: 15px 25px; font-size: 30px; border-radius: 20%">/</button></center>
+            </div>
+            <div>
+                <center><h1 style="color:lawngreen" ;>@ViewBag.rezultat</h1></center>
+                <center><h1 style="color:red" ;>@ViewBag.greska</h1></center>
+            </div>
+        </form>
+    </div>
+    <center><a href="/Default/Index" style="color:whitesmoke">početna stranica</a></center>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatijaWebAplikacije", "MatijaWebAplikacije\MatijaWebAplikacije.csproj", "{FCDC41E5-DFCB-4F07-851C-9DBBDB55FFBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCDC41E5-DFCB-4F07-851C-9DBBDB55FFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCDC41E5-DFCB-4F07-851C-9DBBDB55FFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCDC41E5-DFCB-4F07-851C-9DBBDB55FFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCDC41E5-DFCB-4F07-851C-9DBBDB55FFBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84500AB6-AF5D-4DF8-A616-79EF41E60AE6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Fc</title>
+</head>
+<h2 style="color:red" ;>Site by M4T1J41991</h2>
+<body background="/Content/Images/webpozadina.jpg">
+    <center><h1 style="color:lightskyblue" ;>APLIKACIJA ZA PRETVORBU STUPNJEVA CELZIJA U STUPNJEVE FAHRENHEITE</h1></center>
+    <div>
+        <form method="post">
+            <div>
+                </br>
+                </br>
+                </br>
+                <center><h2 style="color:white" ;>UNESI STUPNJEVE FAHRENHEITE</h2></center>
+                <center><input type="text" name="f" style="font-size: 20px" /></center>
+                </br>
+                </br>
+                </br>
+            </div>
+            <div>
+                <center><button type="submit" style="font-size: 15px">PRETVORI</button></center>
+                </br>
+            </div>
+            <div>
+                <center><h1 style="color:lawngreen" ;>@ViewBag.izracun</h1></center>
+                <center><h1 style="color:lawngreen" ;>@ViewBag.nula</h1></center>
+                <center><h1 style="color:red" ;>@ViewBag.greska</h1></center>
+            </div>
+        </form>
+    </div>
+    <center><a href="/Default/Index" style="color:whitesmoke">početna stranica</a></center>
+</body>
+</html>

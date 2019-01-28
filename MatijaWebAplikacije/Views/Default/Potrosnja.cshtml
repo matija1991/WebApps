@@ -1,0 +1,47 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Potrosnja</title>
+</head>
+<h2 style="color:red" ;>Site by M4T1J41991</h2>
+<body background="/Content/Images/webpozadina.jpg">
+    <center><h1 style="color:lightskyblue" ;>APLIKACIJA ZA IZRAČUN PROSJEČNE POTROŠNJE GORIVA</h1></center>
+    <div>
+        <form method="post">
+            <div>
+                </br>
+                </br>
+                </br>
+                <center><h2 style="color:white" ;>UNESI KOLIČINU UTOČENIH LITARA GORIVA</h2></center>
+                <center><input type="text" name="l" style="font-size: 20px" /></center>
+                </br>
+                </br>
+                </br>
+            </div>
+            <div>
+                <center><h2 style="color:white" ;>UNESI PRIJEĐENE KILOMETRE</h2></center>
+                <center><input type="text" name="km" style="font-size: 20px" /></center>
+                </br>
+                </br>
+                </br>
+            </div>
+            <div>
+                <center><button type="submit" style="font-size: 15px">IZRAČUNAJ</button></center>
+                </br>
+            </div>
+            <div>
+                <center><h1 style="color:lawngreen" ;>@ViewBag.izracun</h1></center>
+                <center><h1 style="color:red" ;>@ViewBag.greska</h1></center>
+            </div>
+        </form>
+    </div>
+    <center><a href="/Default/Index" style="color:whitesmoke">početna stranica</a></center>
+</body>
+</html>
